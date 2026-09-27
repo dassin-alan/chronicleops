@@ -1,0 +1,9 @@
+{
+  "agent": "OpenCode",
+  "model": "GPT-5.6-terra",
+  "submissionId": "opencode-gpt56-terra-chronicleops",
+  "status": "validated",
+  "unitTests": 109,
+  "playwrightTests": 35,
+  "claims": ["See FINAL_REPORT.md and EVIDENCE for executed verification results."]
+}

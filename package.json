@@ -1,0 +1,17 @@
+{
+  "name": "chronicleops",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc -b --pretty false",
+    "test": "vitest run",
+    "build": "tsc -b && vite build",
+    "test:e2e": "playwright test",
+    "verify:benchmark": "node scripts/verify-benchmark.mjs",
+    "package:submission": "node scripts/package-submission.mjs"
+  },
+  "dependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "typescript": "latest", "react": "latest", "react-dom": "latest" },
+  "devDependencies": { "vitest": "latest", "playwright": "latest", "@playwright/test": "latest", "@types/react": "latest", "@types/react-dom": "latest" }
+}
